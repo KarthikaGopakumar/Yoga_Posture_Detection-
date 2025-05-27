@@ -47,7 +47,10 @@ This project implements a yoga posture detection system using Python and Google'
     Email: karthikagopakumar303@gmail.com
     LinkedIn: https://www.linkedin.com/in/karthika-gopakumar-1-
 
-
+📝 **Co-Author**
+    Antony Hamlin Beveira
+    Email: hamlumin24@gmail.com
+    LinkedIn: https://www.linkedin.com/in/antony-hamlin-beveira-04794628b
 
 
 
