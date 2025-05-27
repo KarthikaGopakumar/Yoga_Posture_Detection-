@@ -1,62 +1,62 @@
-🧘 **Yoga Posture Detection Using Mediapipe (Image-Based)**
+🧘 **Yoga Posture Detection Using Mediapipe**
 
-This project detects yoga postures from images using **Mediapipe**’s pose estimation model. Instead of using live webcam input, it processes a set of images stored in a folder and identifies body landmarks to evaluate posture.
+This project implements a yoga posture detection system using Python and Google's Mediapipe framework. It first extracts body landmarks from yoga pose images and trains a model, which is then used to detect and display the name of the yoga posture in real-time using live webcam input.
 
 🧠 **Project Overview**
 
-The main steps involved in this project are:
+* Extracts body landmarks from yoga pose images using Mediapipe.
+* Uses the collected data to train a machine learning model.
+* Captures real-time video via webcam for live pose detection.
+* Predicts and displays the yoga pose using the trained model.
 
-1. **Load Images from a Folder**
-   - The project reads a set of yoga posture images stored locally.
-   - Each image is processed one by one using a loop.
-
-2. **Detect Body Landmarks with Mediapipe**
-   - Mediapipe's pose model identifies 33 key landmarks on the body (like shoulders, elbows, hips, knees, etc.).
-   - These landmarks are the foundation for understanding the posture in each image.
-
-3. **Analyze Landmarks to Identify Yoga Poses**
-   - Angles and positions between joints are calculated using the landmark data.
-   - These measurements are compared to known pose patterns to identify which yoga posture is being performed.
-
-4. **Provide Visual Feedback**
-   - Landmarks and skeleton lines are drawn on each image.
-   - This helps visualize the detected pose and assess its correctness.
-   - You can extend this with pose names or accuracy messages for user guidance.
 
 🧰 **Technologies Used**
 
 - **Python**
-- **OpenCV** – For image loading and drawing.
-- **Mediapipe** – For human pose estimation.
-- **NumPy** – For calculations involving landmark coordinates.
+- **OpenCV** – For video capture and display.
+- **Mediapipe** – For body pose estimation.
+- **NumPy** – For landmark coordinate calculations.
 
-🗂️ **How to Use**
+🚀 **How to Run**
 
-1. Put your yoga posture images in a folder (e.g., `images/`).
-2. Run the notebook `Yoga.ipynb`.
-3. The code will:
-   - Loop through each image.
-   - Detect pose landmarks.
-   - Draw and optionally save the output images with annotations.
+1. Clone this repository or download the notebook file.
+2. Install the required packages:
 
-🧪 **Features**
+   ```bash
+   pip install opencv-python mediapipe numpy
+3. Run the notebook Yoga.ipynb using Jupyter Notebook or any compatible IDE.
+4. Allow webcam access when prompted
 
-- Works with still images (not real-time webcam).
-- Detects and visualizes body landmarks.
-- Prepares the base for pose classification or correction feedback.
-- Easy to test and extend with more advanced pose logic.
+✨ **Features**
 
-🧭 **Future Improvements**
+* Real-time yoga pose tracking
+* Uses Mediapipe’s robust body tracking model
+* Can be extended with more poses or accuracy checks
+* Fun and interactive — great for learning or demo projects
 
-- Add classification logic for more specific yoga poses.
-- Compare detected poses with reference poses for scoring.
-- Export feedback or pose data to CSV or JSON.
-- Build a small web or desktop app interface.
+📌 **Future Improvements**
 
-👩‍💻 **Author**
+* Add more yoga poses.
+* Integrate feedback scoring (accuracy %).
+* Include voice or text-based correction suggestions.
+* Add GUI for user-friendly interaction.
 
-Karthika Gopakumar
-Email: karthikagopakumar303@gmail.com
-LinkedIn: https://www.linkedin.com/in/karthika-gopakumar-1- 
+📝 **Author**
+
+    Karthika Gopakumar
+    Email: karthikagopakumar303@gmail.com
+    LinkedIn: https://www.linkedin.com/in/karthika-gopakumar-1-
+
+
+
+
+
+
+
+
+
+
+
+
 
 
