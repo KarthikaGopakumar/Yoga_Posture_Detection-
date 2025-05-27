@@ -42,7 +42,6 @@ This project implements a yoga posture detection system using Python and Google'
 * Add GUI for user-friendly interaction.
 
 📝 **Author**
-
     Karthika Gopakumar
     Email: karthikagopakumar303@gmail.com
     LinkedIn: https://www.linkedin.com/in/karthika-gopakumar-1-
